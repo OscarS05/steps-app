@@ -114,7 +114,7 @@ fun FloatingBottomBarScreen(
 
                             Text(
                                 text = title,
-                                fontWeight = FontWeight.Medium,
+                                fontWeight = FontWeight.Light,
                                 color = selectedColor
                             )
                         }
