@@ -62,10 +62,10 @@ fun FloatingBottomBarScreen(
         Surface(
             modifier = Modifier
                 .align(Alignment.BottomCenter)
-                .padding(horizontal = 26.dp, vertical = 40.dp)
+                .padding(horizontal = 26.dp, vertical = 30.dp)
                 .fillMaxWidth()
-                .height(74.dp),
-            shape = RoundedCornerShape(32.dp),
+                .height(68.dp),
+            shape = RoundedCornerShape(36.dp),
             border = BorderStroke(width = 1.dp, color = PaleGreen),
             color = Color.White,
             shadowElevation = 0.dp
@@ -101,7 +101,7 @@ fun FloatingBottomBarScreen(
                         Row(
                             modifier = Modifier.padding(
                                 horizontal = 48.dp,
-                                vertical = 18.dp
+                                vertical = 14.dp
                             ),
                             horizontalArrangement = Arrangement.spacedBy(8.dp),
                             verticalAlignment = Alignment.CenterVertically
