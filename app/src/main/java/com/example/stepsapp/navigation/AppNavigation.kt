@@ -6,6 +6,7 @@ import androidx.navigation.NavHost
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.example.stepsapp.screens.HomeScreen
 
 sealed class Screen(val route: String) {
     data object Home : Screen("home")
@@ -24,7 +25,7 @@ fun AppNavigation(
         modifier = modifier,
     ) {
         composable(route = Screen.Home.route) {
-
+            HomeScreen()
         }
 
         composable(route = Screen.History.route) {
