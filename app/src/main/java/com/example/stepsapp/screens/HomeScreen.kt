@@ -50,7 +50,7 @@ fun HomeScreen(){
     val progress = 0.5.toFloat()
     val percentageProgress = 80
     val totalSteps = 4560
-    val accumulatedSteps = 20572
+    val accumulatedSteps = 20_572
 
     Column(
         modifier = Modifier
